@@ -1,0 +1,28 @@
+/* src/styles/Profile.css */
+
+.profile {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+}
+
+.profile-avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.profile h2 {
+    margin: 0;
+    font-size: 28px;
+    color: #333;
+}
+
+.profile p {
+    font-size: 16px;
+    color: #666;
+}

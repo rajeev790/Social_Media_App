@@ -1,0 +1,41 @@
+/* src/styles/Feed.css */
+
+.feed {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.feed .post {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+}
+
+.feed .post img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.feed .post p {
+    margin: 10px 0;
+}
+
+.feed .post-actions {
+    display: flex;
+    justify-content: space-between;
+}
+
+.feed .post-actions button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.feed .post-actions button:hover {
+    background-color: #0056b3;
+}
